@@ -1,0 +1,99 @@
+html{
+  display: center;
+  align-items: center;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height:100vh;
+  background-image: linear-gradient(indianred, rebeccapurple);
+}
+
+  .titulo h1{
+  font-family: Helvetica;
+  font-size: 60px;
+  color: pink;
+  text-align: center;
+  background-color: black;
+  font-style: italic;
+  font-weight: 800;
+  border: 3px solid pink;
+}
+
+h4{
+  font-family: Helvetica;
+  font-size: 20px;
+  color: pink;
+  text-align: center;
+  background-color: black;
+  font-style: italic;
+  font-weight: 800;
+  border: 3px solid pink;
+}
+
+nav{
+  text-align: center;
+  background-color: pink;
+  
+}
+nav a{
+  margin-right: 10px;
+  color: black;
+  
+}
+
+nav a:hover{
+  background-color: indianred;
+  
+}
+  
+h1{ 
+ font-family: Helvetica;
+ text-align: center;
+
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 600px;
+  max-width: 65%;
+  font-size: 15px;
+  margin-bottom:20px
+}
+
+img{
+  height: 100%;
+  width: 100%
+}
+
+.mcontainer{
+  display:flex;
+  width: 94%;
+  border:solid;  
+}
+
+.ccontainer{
+  background-color: pink;
+  max-width: 500px;
+}
+
+.lcontainer{
+  border: solid;
+  background-color: pink;
+}
+
+input, textarea {
+  width:400px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   padding:20px;
+   font-size: 18px;
+} 
+
+.submit {
+  background-color: #dee7ec;
+  color: #889eab;
